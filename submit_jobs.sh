@@ -6,7 +6,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
-#SBATCH --array=0-99  # This will create 64 jobs
+#SBATCH --array=0-99  # This will create 99 jobs
 export PYTHONPATH="/path_to_file/:${PYTHONPATH}"
 # Load  modules
 ml anaconda
