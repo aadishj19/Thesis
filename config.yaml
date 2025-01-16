@@ -1,0 +1,11 @@
+# config.yaml
+paths:
+  data_dir: "/path_to_file/"
+  output_dir: "/path_to_file/"
+  trf_file: "//path_to_file//tess-response-v2.0.csv"
+  pecaut_mamajek_file: "//path_to_file//PecautMamajek2013.txt"
+
+processing:
+  chunk_size: 125  # Number of files per job
+  min_memory_per_job: "2GB"
+  max_runtime: "24:00:00"
