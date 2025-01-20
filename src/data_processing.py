@@ -37,9 +37,9 @@ from src.utils import read_tess_response_function, read_pecaut_mamajek_table, co
 from src.lightcurve_analysis import planck_function, integrate_luminosity, fit_exponential_decay
 from src.lightcurve_analysis import integrate_exponential_decay, find_flare_times, equivalent_duration
 
-def validate_flare_shape(time, flux, start_idx, peak_idx, end_idx):
+def validate_flare_shape(time, flux, start_idx, peak_idx, end_idx): 
     """
-    Validate flare shape characteristics with additional symmetry checks.
+    Validate flare shape characteristics with additional symmetry checks. Adapt this depending on the cadence used.
     """
     if not (0 <= start_idx < peak_idx < end_idx < len(flux)):
         return False
@@ -86,7 +86,7 @@ def validate_flare_shape(time, flux, start_idx, peak_idx, end_idx):
 
 def check_local_variability(flux, start_idx, end_idx, window=150):
     """
-    Check if the local region around the flare shows excessive variability.
+    Check if the local region around the flare shows excessive variability. Adapt this depending on the cadence used.
     """
     pre_flare = flux[max(0, start_idx - window):start_idx]
     post_flare = flux[end_idx:min(len(flux), end_idx + window)]
