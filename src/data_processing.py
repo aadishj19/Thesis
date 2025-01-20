@@ -182,7 +182,7 @@ def analyze_tess_data_from_files(file_paths, trf_file, pecaut_mamajek_file, outp
             predicted_flux = best_model.predict(start=0, end=len(time) - 1)
             residuals = normalized_flux - predicted_flux
             
-            # Flare detection
+            # Flare detection (parameters vary depending on cadence)
             flare_threshold = np.std(residuals) * 3
             min_consecutive_points = 2
             min_amplitude = 0.0004
