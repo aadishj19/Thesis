@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=ivsusers
+#SBATCH --account=username
 #SBATCH --job-name=combine_results
 #SBATCH --output=/STER/aadishj/Documents/FLARIMA/stdout.log
 #SBATCH --error=/STER/aadishj/Documents/FLARIMA/stderr.log
@@ -11,7 +11,7 @@
 ml anaconda
 conda activate flarima
 
-# Activate virtual environment if you have one
+# Activate virtual environment if needed
 # source /path/to/your/venv/bin/activate
 
 # Run the combine script
