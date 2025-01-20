@@ -8,7 +8,6 @@ This repository is a toolset designed to process and analyze TESS data to detect
 - [Configuration](#configuration)
 - [Structure](#structure)
 - [Scripts](#scripts)
-- [License](#license)
 
 ## Installation
 
