@@ -29,7 +29,7 @@ It is primarily intended to be used via SLURM jobs to process large datasets. He
 2. Edit the validate_flare_shape, check_local_variability and analyze_tess_data_from_files function in data_processing.py and adapt the thresholding for the cadence used. Should've implemented this using config.yaml but I'm too lazy.
 3. Submit the batch job to SLURM:
    ```bash
-   sbatch run_processing.sh
+   sbatch submit_jobs.sh
    ```
 
 ## Configuration
