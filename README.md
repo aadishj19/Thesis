@@ -43,7 +43,7 @@ paths:
   pecaut_mamajek_file: "/path/to/PecautMamajek2013.txt" #The pecaut_mamajek table can be found here: http://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt
 
 processing:
-  chunk_size: 125
+  chunk_size: 125 #if you want to use 125 cores
   min_memory_per_job: "2GB"
   max_runtime: "24:00:00"
 ```
