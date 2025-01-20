@@ -72,3 +72,13 @@ Performs data processing tasks on a specified chunk of data. Calls functions fro
 
 After job completion, it combines the results from multiple chunks into a single CSV file.
 
+## Bash files
+
+### submit_jobs.sh
+
+This is the slurm job submission file where you can mention the number of cores, time, memory.
+
+### combine_results.sh
+
+It is automatically triggered after all the individual light curve data chunks have been processed by the SLURM job array. It aggregate the results from the processed chunks into a single dataset.
+
