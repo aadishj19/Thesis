@@ -89,7 +89,7 @@ def find_flare_times(flare_indices, time, normalized_flux):
 
     return flare_start_times, flare_end_times, flare_peak_times
 
-def equivalent_duration(time, normalized_flux, start, stop, err=False):
+def equivalent_duration(time, normalized_flux, start, stop, err=False): #you can set this as true if needed
     try:
         start, stop = int(start), int(stop) + 1
         flare_time_segment = time[start:stop]
