@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --account=ivsusers
-#SBATCH --job-name=flare_detection
+#SBATCH --account=username
+#SBATCH --job-name=jobname
 #SBATCH --output=logs/slurm_%A_%a.out
 #SBATCH --error=logs/slurm_%A_%a.err
 #SBATCH --time=24:00:00
@@ -15,7 +15,7 @@ conda activate flarima
 # Activate virtual environment if needed
 # source /path/to/your/venv/bin/activate
 
-# Create necessary directories
+# Create directories
 mkdir -p logs
 
 # Run the processing script
