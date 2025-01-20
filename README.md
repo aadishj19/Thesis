@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 It is primarily intended to be used via SLURM jobs to process large datasets. Here is a basic rundown of how to run the processing pipeline:
 
-1. Update the paths in `config.yaml` to point to your data files and directory.
+1. Update the paths in `config.yaml` to point to your data files and directory as well as mention the amount of cores you want to use.
 2. Submit the batch job to SLURM:
    ```bash
    sbatch run_processing.sh
