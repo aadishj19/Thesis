@@ -16,7 +16,7 @@ To prepare your environment, ensure you have Python and Anaconda installed, and 
 ```bash
 git clone https://github.com/aadishj19/Thesis.git
 cd Thesis
-conda create --name flarima python=3.8
+conda create --name flarima python=#whatever version number you want if you didn't already have one
 conda activate flarima
 pip install -r requirements.txt
 ```
