@@ -64,10 +64,6 @@ The repository is structured as follows:
 
 ## Scripts
 
-### run_processing.sh
-
-A SLURM script to batch process data in chunks, which uses `process_chunk.py` and `combine_results.py`.
-
 ### process_chunk.py
 
 Performs data processing tasks on a specified chunk of data. Calls functions from `src.data_processing` to analyze light curves. (A chunk in this context is a subset of data: for example if you use 99 cores for 16000 lightcurves then a chunk will be 16000/99.)
