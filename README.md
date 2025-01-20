@@ -80,5 +80,5 @@ This is the slurm job submission file where you can mention the number of cores,
 
 ### combine_results.sh
 
-It is automatically triggered after all the individual light curve data chunks have been processed by the SLURM job array. It aggregate the results from the processed chunks into a single dataset.
+It is automatically triggered after all the individual light curve data chunks have been processed by the SLURM job array. It aggregates the results from the processed chunks into a single dataset.
 
