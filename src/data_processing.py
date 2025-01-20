@@ -1,4 +1,25 @@
 # data_processing.py
+
+"""
+Main Analysis Script
+
+This script reads TESS lightcurve FITS files, identifies flare candidates using ARIMA,
+validates them based on shape and local variability criteria, and calculates physical properties of validated flares.
+
+Functions:
+- `validate_flare_shape`: Validates the shape of a potential flare based on symmetry, duration, and rise/decay rates.
+- `check_local_variability`: Checks the local flux variability around a flare candidate to ensure significance.
+- `analyze_tess_data_from_files`: Main function to process TESS data files, detect and analyze flares, and save results.
+
+Usage:
+1. Prepare input files:
+   - TESS lightcurve FITS files to analyze.
+   - TESS response function file (`trf_file`).
+   - Pecaut & Mamajek table file (`pecaut_mamajek_file`).
+2. Specify the output CSV file path (`output_file`).
+3. Call `analyze_tess_data_from_files` with the file paths and output path.
+"""
+
 import os
 import csv
 import logging
