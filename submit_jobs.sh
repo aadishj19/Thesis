@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=username
+#SBATCH --account=username #make sure to add your slurm id here.
 #SBATCH --job-name=jobname
 #SBATCH --output=logs/slurm_%A_%a.out
 #SBATCH --error=logs/slurm_%A_%a.err
