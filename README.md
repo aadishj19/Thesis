@@ -39,8 +39,8 @@ The configuration file, `config.yaml`, defines paths and job control parameters:
 paths:
   data_dir: "/path/to/data_dir/"
   output_dir: "/path/to/output_dir/" #this is where all your results will be saved.
-  trf_file: "/path/to/trf_file.csv"
-  pecaut_mamajek_file: "/path/to/PecautMamajek2013.txt"
+  trf_file: "/path/to/trf_file.csv" #this is the TESS response function
+  pecaut_mamajek_file: "/path/to/PecautMamajek2013.txt" #The pecaut_mamajek table can be found here: http://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt
 
 processing:
   chunk_size: 125
