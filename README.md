@@ -73,5 +73,5 @@ Performs data processing tasks on a specified chunk of data. Calls functions fro
 
 ### combine_results.py
 
-After job completion, it combines the results from multiple chunks into a single CSV file for easier analysis and interpretation.
+After job completion, it combines the results from multiple chunks into a single CSV file.
 
