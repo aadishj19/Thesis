@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --account=username
+#SBATCH --account=username #make sure to enter your slurm userid here.
 #SBATCH --job-name=combine_results
-#SBATCH --output=/STER/aadishj/Documents/FLARIMA/stdout.log
-#SBATCH --error=/STER/aadishj/Documents/FLARIMA/stderr.log
+#SBATCH --output=/path_to_file/FLARIMA/stdout.log
+#SBATCH --error=/path_to_file/FLARIMA/stderr.log
 #SBATCH --time=1:00:00
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
