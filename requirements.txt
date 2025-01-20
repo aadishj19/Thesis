@@ -1,8 +1,9 @@
 numpy
 pandas
-matplotlib
 lightkurve
-scipy
-statsmodels
+matplotlib
 astropy
+statsmodels
+scipy
 tqdm
+pyyaml
