@@ -59,7 +59,7 @@ The repository is structured as follows:
   - `combine_results.py`: Combines results from individual chunks.
 - `/src`: Contains source code for data processing and analysis.
   - `constants.py`: Defines physical constants used across the project.
-  - `data_processing.py`: Handles the main data loading and preprocessing.
+  - `data_processing.py`: Handles the main data loading, arima modeling, and parameter estimation.
   - `lightcurve_analysis.py`: Functions for flare analysis using light curves.
   - `utils.py`: Utility functions for reading data and estimating parameters.
 
