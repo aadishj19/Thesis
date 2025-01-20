@@ -14,8 +14,8 @@ This repository is a toolset designed to process and analyze TESS data to detect
 To prepare your environment, ensure you have Python and Anaconda installed, and follow these steps:
 
 ```bash
-git clone https://github.com/yourusername/flarima.git
-cd flarima
+git clone https://github.com/aadishj19/Thesis.git
+cd Thesis
 conda create --name flarima python=3.8
 conda activate flarima
 pip install -r requirements.txt
