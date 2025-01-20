@@ -11,7 +11,7 @@
 ml anaconda
 conda activate flarima
 
-# Activate virtual environment if needed
+# Activate virtual environment if needed (not necessary)
 # source /path/to/your/venv/bin/activate
 
 # Run the combine script
